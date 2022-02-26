@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Raleway&family=Tajawal&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/loading.css">
+    <link rel="stylesheet" href="../css/blog.css">
+</head>
+<body>
+        <!-- start navbar -->
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="home.html">Shapely demo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home.html" title="Home">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html" title="Blog">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html" title="Portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-item dropdown about-tests">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="About The Tests">
+                                aboutthetests
+                            </a>
+                            <ul class="dropdown-menu tests" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#" title="Page Image Alignment">page image alignment</a></li>
+                                <li><a class="dropdown-item" href="#" title="Page Markup And Formatting">page markup and formatting</a></li>
+                                <li><a class="dropdown-item" href="#" title="Clearing Floats">clearing floats</a></li>
+                                <li><a class="dropdown-item" href="#" title="Page With Comments">page with comments</a></li>
+                                <li><a class="dropdown-item" href="#" title="Page With Comments Disabled">page with comments disabled</a></li>
+                            </ul>
+                        </li>
+                        <li id="level1" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" title="Level 1" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                level1
+                            </a>
+                            <ul class="dropdown-menu list-menu menu1" aria-labelledby="navbarDropdown">
+                                <li id="level2"><a class="dropdown-item" href="#" title="Level 2">
+                                    level2
+                                    </a>
+                                    <ul id="level3" class="dropdown-menu menu2" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#" title="Level 3">level3</a></li>
+                                        <li><a class="dropdown-item" href="#" title="Level 3A">level3a</a></li>
+                                        <li><a class="dropdown-item" href="#" title="Level 3B">level3b</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#" title="Level 2A">level2a</a></li>
+                                <li><a class="dropdown-item" href="#" title="Level 2B">level2b</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html" title="Shop">shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="site-search" id="site-search"><i class="fas fa-search"></i></a>
+                            <div class="search-box" aria-labelledby="site-search">
+                                <form action="">
+                                    <input type="text" placeholder="Type Here"> 
+                                    <button type="submit" class="button">search</button>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    <!-- end navbar -->
+    <!-- start header -->
+
+    <div class="header">
+        <div class="container">
+            Blog
+        </div>
+    </div>
+
+    <!-- end header -->
+    <!-- start section blog-1 -->
+
+    <section class="blog-1">
+        <div class="container">
+            <div class="blog_content col-12 col-md-8">
+                <div class=" card template_sticky">
+                    <div class="card-bg">
+                        <a href="#"><img src="../images/blogs/photo-1453282716202-de94e528067c-1.jpg" class="card-img-top" alt=""></a>
+                        <span><a href="#">news</a></span>
+                    </div>
+                    <div class="card-body">
+                        <h1>template: sticky</h1>
+                        <p>January 7, 2016<span></span> <a href="#"> by Aigars</a></p>
+                        <p>This is a sticky post.</p>
+                        <p>There are a few things to verify:</p>
+                        <ul>
+                            <li>
+                                The sticky post should be distinctly recognizable in some way in comparison to normal posts. You can style the <sapn>.sticky</sapn> class if you are using the <span>post_class()</span> function to generate your post classes, which is a best practice.
+                            </li>
+                            <li>
+                                They should show at the very top of the blog index page, even though they could be several posts back chronologically.
+                            </li>
+                            <li>
+                                They should still show up again in their chronologically correct postion in time, but without the sticky indicator.
+                            </li>
+                            <li>
+                                If you have a plugin or widget that lists popular posts or comments, make sure that this sticky post is not always at the top of those lists unless it really is popular.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row other_template">
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1440557653082-e8e186733eeb-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Template: More Tag</a></h5>
+                            <p class="card-text">March 15, 2016 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text">This content is before the <a href="#">more tag.</a></p>
+                            <p class="card-text">Right after this sentence should be a “continue reading” button of some sort.</p>
+                            <a href="#" class="btn btn-primary button">Read more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1449168013943-3a15804bb41c-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Hollo World!</a></h5>
+                            <p class="card-text">February 23, 2016 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text">Welcome to <a href="#">colorlib.com</a>. This is your first post. Edit or delete it, then start blogging!</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1443527216320-7e744084f5a7-2.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Markup: HTML Tags and Formatting</a></h5>
+                            <p class="card-text">January 11, 2016 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text">HTML Tags and Formatting</p>
+                            <a href="#" class="btn btn-primary button">Read more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1444858345149-8ff40887589b-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Markup: HTML Tags and Formatting</a></h5>
+                            <p class="card-text">January 10, 2016 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text">Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.</p>
+                            <a href="#" class="btn btn-primary button">Read more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1434871619871-1f315a50efba-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Markup: Text Alignment</a></h5>
+                            <p class="card-text">January 9, 2016 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text default">Default</p>
+                            <p class="card-text">This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free flowing, with love. Completely neutral and not picking a side or sitting on the fence. It just is. It just freaking is. It likes where it is. It does not feel compelled to pick a side. Leave him be. It will just be better that way. Trust me.</p>
+                            <a href="#" class="btn btn-primary button">Read more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1434472007488-8d47f604f644-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Markup: Title With Special Characters</a></h5>
+                            <p class="card-text">January 5, 2016 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text">Putting special characters in the title should have no adverse effect on the layout or functionality.</a></p>
+                            <a href="#" class="btn btn-primary button">Read more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1444760134166-9b8f7d0fc038-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Markup: Title With Markup</a></h5>
+                            <p class="card-text">January 5, 2016 <span></span> by <a href="#">Aigars</a></p>
+                            <a href="#" class="btn btn-primary button">Read more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1448518184296-a22facb4446f-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Edge Case: Nested And Mixed Lists</a></h5>
+                            <p class="card-text">May 15, 2015 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text">Nested and mixed lists are an interesting beast. It’s a corner case to make sure that</p>
+                            <a href="#" class="btn btn-primary button">Read more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1430329429612-babb42f88673-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Template: Featured Image (Vertical)</a></h5>
+                            <p class="card-text">March 15, 2015 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text">This post should display a <a href="#">featured image,</a>if the theme <a href="#">supports it.</a></p>
+                            <p class="card-text">Non-square images can provide some unique styling issues.</p>
+                            <p class="card-text">This post tests a horizontal featured image.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1433878455169-4698e60005b1-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Template: Featured Image (Horizontal)</a></h5>
+                            <p class="card-text">March 15, 2015 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text">This post should display a <a href="#">featured image,</a>if the theme <a href="#">supports it.</a></p>
+                            <p class="card-text">Non-square images can provide some unique styling issues.</p>
+                            <p class="card-text">This post tests a horizontal featured image.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-lg-6">
+                        <div class="card-bg">
+                            <a href="#"><img src="../images/blogs/photo-1431492299426-2ea1ce429cc0-1.jpg" class="card-img-top" alt="..."></a>
+                            <span><a href="">news</a></span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Template: Excerpt (Defined)</a></h5>
+                            <p class="card-text">March 15, 2015 <span></span> by <a href="#">Aigars</a></p>
+                            <p class="card-text">This is the post content. It should be displayed in place of the user-defined excerpt in single-page views.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <!-- start sidebar -->
+            <aside class="sidebar col-12 col-md-4">
+                <div class="sidebar_head">
+                    <input type="text" class="search" placeholder="Type Here"> 
+                    <span></span>
+                    <i class="fas fa-search"></i>       
+                </div>
+                <div class="sidebar_body">
+                    <div class="top_posts">
+                        <h3>top posts</h3>
+                        <ul>
+                            <li><img src="../images/photo-1440557653082-e8e186733eeb-1.jpg" alt=""><a href="">Template: More Tag</a></li>
+                            <li><img src="../images/projects/photo-1449168013943-3a15804bb41c-1-1-1024x714.jpg" alt=""><a href="">Hello World</a></li>
+                            <li><img src="../images/blogs/photo-1453282716202-de94e528067c-1.jpg" alt=""><a href="">Template: Sticky</a></li>
+                            <li><img src="../images/69f34259a9d0b7df04f0b50893c469ed.jpeg" alt=""><a href="">Template: Excerpt (Generated)</a></li>
+                            <li><img src="../images/blogs/photo-1434472007488-8d47f604f644-1.jpg" alt=""><a href="">Markup: Title With Special Characters</a></li>
+                            <li><img src="../images/blogs/photo-1434871619871-1f315a50efba-1.jpg" alt=""><a href="">Markup: Text Alignment</a></li>
+                        </ul>
+                    </div>
+                    <div class="recent_posts">
+                        <h3>recent posts</h3>
+                        <ul>
+                            <li><a href="#">Template: Excerpt</a></li>
+                            <li><a href="#">Hello World</a></li>
+                            <li><a href="#">Markup: HTML Tags and Formatting</a></li>
+                            <li><a href="#">Markup: Image Alignment</a></li>
+                            <li><a href="#">Markup: Text Alignment</a></li>
+                        </ul>
+                    </div>
+                    <div class="categories">
+                        <h3>categories</h3>
+                        <ul>
+                            <li><a href="#">Edge Case</a> </li>
+                            <li><a href="#">Markup</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Post Formats</a></li>
+                            <li><a href="#">Template</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- end section blog-1 -->
+    <!-- start footer -->
+    <footer>
+        <div class="row">
+            <div class="col-sm">
+                <p class="copy_rite">
+                    Theme by <a href="#">Colorlib</a> Powered by <a href="#">WordPress</a>
+                </p>
+            </div>
+            <div class="icon col-sm">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+        <div class="button_top">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- start loading -->
+
+    <div class="loading-container">
+        <div class="loading"></div>
+        <span>loading...</span>
+    </div>
+
+    <!-- end loading -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.js"></script>
+    <script src="../js/button-top.js"></script>
+    <script src="../js/loading.js"></script>
+    <script src="../js/nav-fixed.js"></script>
+</body>
+</html>
